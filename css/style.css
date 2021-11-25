@@ -33,7 +33,7 @@ body {
 .tags {
     position: absolute;
     left: 0;
-    bottom: 30px;
+    bottom: 100px;
     color: white;
     font-weight: bold;
     text-align: center;
@@ -50,4 +50,25 @@ body {
     background-color: #028759;
     padding: 5px;
     font-size: 15px; 
+}
+
+.description {
+    border: 1px solid black;
+}
+
+.brand {
+    font-size: 15px;
+}
+
+.model {
+    font-weight: bold;
+}
+
+.offer {
+    font-weight: bold;
+    color: rgb(236, 43, 43);
+}
+
+.full {
+    text-decoration: line-through;
 }
