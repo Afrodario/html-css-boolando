@@ -1,9 +1,10 @@
 body {
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .container {
-    width: 90%;
+    width: 80%;
     margin: auto;
 }
 
@@ -11,8 +12,7 @@ body {
     display: inline-block;
     position: relative;
     width: 30%;
-    border: 1px solid black;
-    margin: 5px;
+    margin: 10px;
 }
 
 .product img {
@@ -53,7 +53,7 @@ body {
 }
 
 .description {
-    border: 1px solid black;
+    padding: 5px;
 }
 
 .brand {
