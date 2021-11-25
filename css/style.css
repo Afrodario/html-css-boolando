@@ -1,3 +1,4 @@
+/* Regole generali */
 body {
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
@@ -7,15 +8,18 @@ body {
     width: 80%;
     margin: auto;
 }
+/* Fine regole generali */
 
+/* Stile delle card */
 .product {
     display: inline-block;
     position: relative;
     width: 30%;
     margin: 10px;
+    z-index: 0;
 }
 
-.product img {
+.product .img-standard, .product .img-alt {
     width: 100%;
 }
 
@@ -28,6 +32,7 @@ body {
     font-size: 30px;
     text-align: center;
     padding: 10px 15px;
+    z-index: 2;
 }
 
 .tags {
@@ -38,6 +43,7 @@ body {
     font-weight: bold;
     text-align: center;
     margin: 3px;
+    z-index: 2;
 }
 
 .discount {
@@ -51,7 +57,23 @@ body {
     padding: 5px;
     font-size: 15px; 
 }
+/* Fine stile delle card */
 
+/* Stile delle immagini nascoste */
+.product .img-alt {
+    display: none;
+}
+
+.product:hover .img-alt {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+/* Fine stile delle immagini nascoste */
+
+/* Stile delle descrizioni */
 .description {
     padding: 5px;
 }
@@ -72,3 +94,4 @@ body {
 .full {
     text-decoration: line-through;
 }
+/* Fine stile delle descrizioni */
