@@ -1,0 +1,53 @@
+body {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+.product {
+    display: inline-block;
+    position: relative;
+    width: 30%;
+    border: 1px solid black;
+    margin: 5px;
+}
+
+.product img {
+    width: 100%;
+}
+
+.heart {
+    position: absolute;
+    top: 20px;
+    right: 0;
+    border: 1px solid white;
+    background-color: white;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px 15px;
+}
+
+.tags {
+    position: absolute;
+    left: 0;
+    bottom: 30px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    margin: 3px;
+}
+
+.discount {
+    background-color: rgb(240, 22, 51);
+    padding: 5px;
+    font-size: 15px; 
+}
+
+.sustain {
+    background-color: #028759;
+    padding: 5px;
+    font-size: 15px; 
+}
